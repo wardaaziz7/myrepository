@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="mybackcontofcontact flex justify-center items-center min-h-screen">
+  <div class=" myinsidedivcontact border-black rounded-lg w-full max-w-5xl p-6 h-[550px]">
+    <header class="flex justify-between items-center border-b-2 border-black pb-4 mb-6">
+      <div class="flex items-center">
+        <i class="fa fa-bar-chart text-[#3f3f29] text-xl mr-2"></i>
+        <h1 class="text-black font-bold text-xl">warda.digital</h1>
+      </div>
+      <nav>
+        <ul class="flex space-x-5">
+          <li><a href="Home.html" class="text-[#3f3f29] hover:underline font-semibold">Home</a></li>
+          <li><a href="Personal Profile.html" class="text-[#3f3f29] hover:underline font-semibold">Personal Profile</a></li>
+          <li><a href="Gallery.html" class="text-[#3f3f29] hover:underline font-semibold">Gallery</a></li>
+          <li><a href="Career Goals.html" class="text-[#3f3f29] hover:underline font-semibold">Career Goals</a></li>
+          <li><a href="Projects.html" class="text-[#3f3f29] hover:underline font-semibold">Projects</a></li>
+          <li><a href="Skills.html" class="text-[#3f3f29] hover:underline font-semibold">Skills</a></li>
+          <li><a href="Contact Us.html" class="text-[#3f3f29] hover:underline font-semibold">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="text-center mb-6">
+      <h2 class="text-[#3f3f29] text-2xl font-bold mb-4">Contact Us</h2>
+      <p class="text-[#3f3f29] text-base mb-4">We'd love to hear from you! Please fill out the form below.</p>
+    </section>
+
+    <form class="space-y-4 myform">
+      <div class="flex flex-col space-y-1">
+        <label for="name" class="text-[#3f3f29] font-semibold text-sm">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" class="p-2 border-2 border-[#c0c0af] rounded-md text-sm w-full max-w-xs focus:outline-none focus:border-[#c0c0af]"/>
+      </div>
+      <div class="flex flex-col space-y-1">
+        <label for="phone" class="text-[#3f3f29] font-semibold text-sm">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" class="p-2 border-2 border-[#c0c0af] rounded-md text-sm w-full max-w-xs focus:outline-none focus:border-[#ffc300]"/>
+      </div>
+      <div class="flex flex-col space-y-1">
+        <label for="email" class="text-[#3f3f29] font-semibold text-sm">Email:</label>
+        <input type="email" id="email" name="email" placeholder="example@nu.edu.pk" class="p-2 border-2 border-[#c0c0af] rounded-md text-sm w-full max-w-xs focus:outline-none focus:border-[#ffc300]"/>
+      </div>
+      <div class="text-right">
+        <button type="submit" class="bg-[#ffc300] text-white font-semibold py-1 px-4 rounded-md hover:bg-[#fdc600] transition duration-300 text-sm">Send</button>
+      </div>
+    </form>
+
+   
+  </div>
+</body>
+</html>
